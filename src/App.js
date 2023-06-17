@@ -5,7 +5,7 @@ import MarkedInput from "./components/MarkedInput";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" id="app-container">
       <h1 className="title">React Mardown Editor</h1>
       <h1 className="para">A simple md-editor in react.js</h1>
       <div className="editor-container">
