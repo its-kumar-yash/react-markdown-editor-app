@@ -16,8 +16,8 @@ function App() {
   return (
     <EditorContext.Provider value={contextValue}>
       <div className="App" id="app-container">
-        <h1 className="title">React Mardown Editor</h1>
-        <h1 className="para">A simple md-editor in react.js</h1>
+        <h1 className="title">React-Mark-Pro</h1>
+        <h1 className="para">A simple markdown-editor built using react.js</h1>
         <div className="editor-container">
           <MarkedInput />
           <Result />

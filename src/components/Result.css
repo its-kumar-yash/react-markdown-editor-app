@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap');
+
 .container {
     width: 50%;
     height: 100%;
     padding: 13px;
-    border-right: 1.5px solid rgba(15,15,15,0.4);
+    border-right: 2px solid rgba(15,15,15,0.4);
     font-family: 'Roboto', sans-serif;
 }
 
@@ -13,7 +15,7 @@
     font-family: monospace;
     margin-bottom:1em;
     padding: 18px 0;
-    border-bottom: 1px solid rgba(15,15,15,0.3);
+    border-bottom: 2px solid rgba(15,15,15,0.3);
 }
 
 .result-area {
@@ -24,4 +26,5 @@
     font-size: 17px;
     color: black;
     background: white;
+    text-align: left;
 }
