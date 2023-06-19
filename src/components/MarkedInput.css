@@ -35,3 +35,37 @@
   color: #15c39a;
   opacity: 1;
 }
+
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+  .container {
+    width: auto;
+    height: 100%;
+    padding: 13px;
+    margin-bottom: 3rem;
+    font-family: "Roboto Mono", monospace;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 599px) {
+  .container {
+    width: auto;
+    height: 100%;
+    padding: 13px;
+    margin-bottom: 3rem;
+    font-family: "Roboto Mono", monospace;
+  }
+}
+
+@media only screen and (max-width: 399px) {
+  .container {
+    width: auto;
+    height: 100%;
+    padding: 13px;
+    margin-bottom: 3rem;
+    font-family: "Roboto Mono", monospace;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+}
