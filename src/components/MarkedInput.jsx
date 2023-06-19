@@ -13,10 +13,10 @@ const MarkedInput = () => {
 
   return (
     <div className="container">
-      <div className="title">Input Here</div>
+      <div className="title">Input</div>
       <textarea
         className="textarea-container"
-        placeholder="Write Input"
+        placeholder="Write Input Here..."
         onChange={onInputChangeHander}
       ></textarea>
     </div>
