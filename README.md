@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# React-Mark-Pro
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The React-Mark-Pro is a web application that allows you to write and preview Markdown content in real-time built using React.js. It uses the `react-markdown` library to convert Markdown syntax into HTML for rendering.
 
-## Available Scripts
+## 📸Preview
 
-In the project directory, you can run:
+![React-Mark-Pro Website Preview](./src/preview.png)
 
-### `npm start`
+## ✨Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Live Markdown Preview: As you type in the editor, the preview section updates in real-time to show the rendered Markdown content.
+- Support for Markdown Syntax: The previewer supports various Markdown elements such as headers, links, code blocks, lists, blockquotes, images, and formatting (e.g., bold, italic).
+- Responsiveness: Responsive for screen sizes.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🤖Technologies Used
 
-### `npm test`
+The React-Mark-Pro is built using the following technologies:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React.js: A JavaScript library for building user interfaces.
+  Used React features likes states, contexts etc.
+- React-Markdown: A library for parsing Markdown and converting it to HTML.
+- Babel: A JavaScript compiler that enables the use of the latest JavaScript features in the browser.
 
-### `npm run build`
+## ✨Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Enter your Markdown content in the editor section of the application.
+2. The preview section will update in real-time to display the rendered Markdown content.
+3. Modify the Markdown content to see the preview update dynamically.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 💻Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To run the React-Mark-Pro locally, follow these steps:
 
-### `npm run eject`
+1. Clone the repository: `git clone https://github.com/its-kumar-yash/react-markdown-editor-app.git`
+2. Navigate to the project directory: `cd react-markdown-editor`
+3. Install the dependencies: `npm install`
+4. Start the development server: `npm start`
+5. Open your web browser and visit `http://localhost:3000` to access the React-Mark-Pro.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📑Markdown Cheatsheet
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [Basic Syntax](https://www.markdownguide.org/cheat-sheet/#basic-syntax)
+- [Extended Syntax](https://www.markdownguide.org/cheat-sheet/#extended-syntax)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🔍Learn More About Markdown Language
+ - [Learn More](https://www.markdownguide.org/getting-started/)
