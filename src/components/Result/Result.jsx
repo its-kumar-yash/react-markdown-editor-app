@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import "./Result.css";
 import ReactMarkdown from "react-markdown";
-import editorContext from "../editorContext";
+import editorContext from "../../editorContext";
 
 const Result = () => {
   //outputting the markdown text

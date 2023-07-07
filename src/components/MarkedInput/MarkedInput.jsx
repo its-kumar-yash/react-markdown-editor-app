@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import "./MarkedInput.css";
-import editorContext from "../editorContext";
+import editorContext from "../../editorContext";
 
 const MarkedInput = () => {
   //globally acessing/updating markdown text
