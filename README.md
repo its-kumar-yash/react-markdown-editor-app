@@ -4,7 +4,7 @@ The React-Mark-Pro is a web application that allows you to write and preview Mar
 
 ## 📸Preview
 
-![React-Mark-Pro Website Preview](./src/preview.png)
+![React-Mark-Pro Website Preview](src/preview.png)
 
 ## ✨Features
 
